@@ -1,0 +1,23 @@
+{
+  "name": "parcel-bug-async-css",
+  "version": "1.0.0",
+  "description": "",
+  "browser": "build/index.html",
+  "targets": {
+    "browser": {
+      "context": "browser",
+      "isLibrary": false,
+      "minify": true,
+      "publicUrl": "./"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.226"
+  },
+  "scripts": {
+    "build": "rm -rf .parcel-cache build/ && parcel build src/index.html --no-source-maps"
+  },
+  "author": "",
+  "license": "ISC"
+}
